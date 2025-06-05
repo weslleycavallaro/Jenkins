@@ -18,8 +18,6 @@ pipeline {
                         dockerapp.push("${env.BUILD_ID}")
                         }
                 }
-
-                roda pipeline
             }
         }
 
